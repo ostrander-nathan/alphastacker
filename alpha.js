@@ -1,9 +1,9 @@
 // first attempt wrap in function
 function letterRow() {
-	// For Loop starts with a - ends with z 
-	for (var aa = 97; aa <= 122; aa++) {
-		stackLetters = stackLetters + String.fromCharCode(aa);
-	}
+    // For Loop starts with a - ends with z 
+    for (var aa = 97; aa <= 122; aa++) {
+        stackLetters = stackLetters + String.fromCharCode(aa);
+    }
 }
 //defines var stackletters
 var stackLetters = "";
@@ -23,10 +23,10 @@ console.log(String.fromCharCode(97, 98));
 var alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 var letterString = "";
 var newString = "";
-var newStringSpaces ="";
+var newStringSpaces = "";
 for (var i = 0; i < alpha.length; i++) {
-	letterString = letterString + alpha[i];
-	console.log(letterString);
-	var newString = letterString.replace(/(.{5})/g, '$1 ').trim();
-	console.log(newString);
+    letterString = letterString + alpha[i];
+    console.log(letterString);
+    var newString = letterString.replace(/(.{5})/g, '$1 ').trim();
+    console.log(newString);
 }
